@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  color: darkturquoise;
+}
+#main {
+  background-image: url("bluebutterfly.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0 40px 0;
+  position: relative;
+  width: auto;
+  height: 80%;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Shippori Mincho B1", serif;
+}
+#submain {
+  margin: 200px;
+}
+#logo {
+  width: 150px;
+  position: absolute;
+  left: 50px;
+}
+.btn {
+  padding: 8px 16px;
+  background: white;
+  border: none;
+  border-radius: 16px;
+  color: #070808;
+  font-weight: 300;
+}
+#title {
+  text-shadow: 2px -2px 2px rgb(31, 27, 27);
+}
